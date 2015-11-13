@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07D751161AFCDCC000747A9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D751151AFCDCC000747A9A /* main.m */; };
+		07D751191AFCDCC000747A9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D751181AFCDCC000747A9A /* AppDelegate.m */; };
+		07D7511C1AFCDCC000747A9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D7511B1AFCDCC000747A9A /* ViewController.m */; };
+		07D7511F1AFCDCC000747A9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07D7511D1AFCDCC000747A9A /* Main.storyboard */; };
+		07D751211AFCDCC000747A9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07D751201AFCDCC000747A9A /* Images.xcassets */; };
+		07D751241AFCDCC000747A9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07D751221AFCDCC000747A9A /* LaunchScreen.xib */; };
+		07D751301AFCDCC100747A9A /* HarmonicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D7512F1AFCDCC100747A9A /* HarmonicsTests.m */; };
+		07D7513B1AFCDCF700747A9A /* CLPWaveFormView.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D7513A1AFCDCF700747A9A /* CLPWaveFormView.m */; };
+		07D7513E1AFCF9EA00747A9A /* TGSineWaveToneGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D7513D1AFCF9EA00747A9A /* TGSineWaveToneGenerator.m */; };
+		07D751411AFD283900747A9A /* CLPNote.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D751401AFD283900747A9A /* CLPNote.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07D7512A1AFCDCC100747A9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07D751081AFCDCC000747A9A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07D7510F1AFCDCC000747A9A;
+			remoteInfo = Harmonics;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07D751101AFCDCC000747A9A /* Harmonics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Harmonics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D751141AFCDCC000747A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D751151AFCDCC000747A9A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		07D751171AFCDCC000747A9A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		07D751181AFCDCC000747A9A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		07D7511A1AFCDCC000747A9A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		07D7511B1AFCDCC000747A9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		07D7511E1AFCDCC000747A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07D751201AFCDCC000747A9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07D751231AFCDCC000747A9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07D751291AFCDCC100747A9A /* HarmonicsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HarmonicsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07D7512E1AFCDCC100747A9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07D7512F1AFCDCC100747A9A /* HarmonicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HarmonicsTests.m; sourceTree = "<group>"; };
+		07D751391AFCDCF700747A9A /* CLPWaveFormView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPWaveFormView.h; sourceTree = "<group>"; };
+		07D7513A1AFCDCF700747A9A /* CLPWaveFormView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPWaveFormView.m; sourceTree = "<group>"; };
+		07D7513C1AFCF9EA00747A9A /* TGSineWaveToneGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGSineWaveToneGenerator.h; sourceTree = "<group>"; };
+		07D7513D1AFCF9EA00747A9A /* TGSineWaveToneGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGSineWaveToneGenerator.m; sourceTree = "<group>"; };
+		07D7513F1AFD283900747A9A /* CLPNote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLPNote.h; sourceTree = "<group>"; };
+		07D751401AFD283900747A9A /* CLPNote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLPNote.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07D7510D1AFCDCC000747A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D751261AFCDCC100747A9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07D751071AFCDCC000747A9A = {
+			isa = PBXGroup;
+			children = (
+				07D751121AFCDCC000747A9A /* Harmonics */,
+				07D7512C1AFCDCC100747A9A /* HarmonicsTests */,
+				07D751111AFCDCC000747A9A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07D751111AFCDCC000747A9A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07D751101AFCDCC000747A9A /* Harmonics.app */,
+				07D751291AFCDCC100747A9A /* HarmonicsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07D751121AFCDCC000747A9A /* Harmonics */ = {
+			isa = PBXGroup;
+			children = (
+				07D751171AFCDCC000747A9A /* AppDelegate.h */,
+				07D751181AFCDCC000747A9A /* AppDelegate.m */,
+				07D7511A1AFCDCC000747A9A /* ViewController.h */,
+				07D7511B1AFCDCC000747A9A /* ViewController.m */,
+				07D7511D1AFCDCC000747A9A /* Main.storyboard */,
+				07D751201AFCDCC000747A9A /* Images.xcassets */,
+				07D751221AFCDCC000747A9A /* LaunchScreen.xib */,
+				07D751131AFCDCC000747A9A /* Supporting Files */,
+				07D751391AFCDCF700747A9A /* CLPWaveFormView.h */,
+				07D7513A1AFCDCF700747A9A /* CLPWaveFormView.m */,
+				07D7513C1AFCF9EA00747A9A /* TGSineWaveToneGenerator.h */,
+				07D7513D1AFCF9EA00747A9A /* TGSineWaveToneGenerator.m */,
+				07D7513F1AFD283900747A9A /* CLPNote.h */,
+				07D751401AFD283900747A9A /* CLPNote.m */,
+			);
+			path = Harmonics;
+			sourceTree = "<group>";
+		};
+		07D751131AFCDCC000747A9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D751141AFCDCC000747A9A /* Info.plist */,
+				07D751151AFCDCC000747A9A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07D7512C1AFCDCC100747A9A /* HarmonicsTests */ = {
+			isa = PBXGroup;
+			children = (
+				07D7512F1AFCDCC100747A9A /* HarmonicsTests.m */,
+				07D7512D1AFCDCC100747A9A /* Supporting Files */,
+			);
+			path = HarmonicsTests;
+			sourceTree = "<group>";
+		};
+		07D7512D1AFCDCC100747A9A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07D7512E1AFCDCC100747A9A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07D7510F1AFCDCC000747A9A /* Harmonics */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D751331AFCDCC100747A9A /* Build configuration list for PBXNativeTarget "Harmonics" */;
+			buildPhases = (
+				07D7510C1AFCDCC000747A9A /* Sources */,
+				07D7510D1AFCDCC000747A9A /* Frameworks */,
+				07D7510E1AFCDCC000747A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Harmonics;
+			productName = Harmonics;
+			productReference = 07D751101AFCDCC000747A9A /* Harmonics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07D751281AFCDCC100747A9A /* HarmonicsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07D751361AFCDCC100747A9A /* Build configuration list for PBXNativeTarget "HarmonicsTests" */;
+			buildPhases = (
+				07D751251AFCDCC100747A9A /* Sources */,
+				07D751261AFCDCC100747A9A /* Frameworks */,
+				07D751271AFCDCC100747A9A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07D7512B1AFCDCC100747A9A /* PBXTargetDependency */,
+			);
+			name = HarmonicsTests;
+			productName = HarmonicsTests;
+			productReference = 07D751291AFCDCC100747A9A /* HarmonicsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07D751081AFCDCC000747A9A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = Eric;
+				TargetAttributes = {
+					07D7510F1AFCDCC000747A9A = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					07D751281AFCDCC100747A9A = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 07D7510F1AFCDCC000747A9A;
+					};
+				};
+			};
+			buildConfigurationList = 07D7510B1AFCDCC000747A9A /* Build configuration list for PBXProject "Harmonics" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07D751071AFCDCC000747A9A;
+			productRefGroup = 07D751111AFCDCC000747A9A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07D7510F1AFCDCC000747A9A /* Harmonics */,
+				07D751281AFCDCC100747A9A /* HarmonicsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07D7510E1AFCDCC000747A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D7511F1AFCDCC000747A9A /* Main.storyboard in Resources */,
+				07D751241AFCDCC000747A9A /* LaunchScreen.xib in Resources */,
+				07D751211AFCDCC000747A9A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D751271AFCDCC100747A9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07D7510C1AFCDCC000747A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D7511C1AFCDCC000747A9A /* ViewController.m in Sources */,
+				07D7513E1AFCF9EA00747A9A /* TGSineWaveToneGenerator.m in Sources */,
+				07D7513B1AFCDCF700747A9A /* CLPWaveFormView.m in Sources */,
+				07D751191AFCDCC000747A9A /* AppDelegate.m in Sources */,
+				07D751161AFCDCC000747A9A /* main.m in Sources */,
+				07D751411AFD283900747A9A /* CLPNote.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07D751251AFCDCC100747A9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07D751301AFCDCC100747A9A /* HarmonicsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07D7512B1AFCDCC100747A9A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07D7510F1AFCDCC000747A9A /* Harmonics */;
+			targetProxy = 07D7512A1AFCDCC100747A9A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07D7511D1AFCDCC000747A9A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D7511E1AFCDCC000747A9A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07D751221AFCDCC000747A9A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07D751231AFCDCC000747A9A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07D751311AFCDCC100747A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07D751321AFCDCC100747A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07D751341AFCDCC100747A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Harmonics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07D751351AFCDCC100747A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Harmonics/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07D751371AFCDCC100747A9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HarmonicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmonics.app/Harmonics";
+			};
+			name = Debug;
+		};
+		07D751381AFCDCC100747A9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HarmonicsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Harmonics.app/Harmonics";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07D7510B1AFCDCC000747A9A /* Build configuration list for PBXProject "Harmonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D751311AFCDCC100747A9A /* Debug */,
+				07D751321AFCDCC100747A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07D751331AFCDCC100747A9A /* Build configuration list for PBXNativeTarget "Harmonics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D751341AFCDCC100747A9A /* Debug */,
+				07D751351AFCDCC100747A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07D751361AFCDCC100747A9A /* Build configuration list for PBXNativeTarget "HarmonicsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07D751371AFCDCC100747A9A /* Debug */,
+				07D751381AFCDCC100747A9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07D751081AFCDCC000747A9A /* Project object */;
+}
